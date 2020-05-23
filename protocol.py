@@ -29,11 +29,11 @@ Bitcoin protocol access for Bitnodes.
 Reference: https://en.bitcoin.it/wiki/Protocol_specification
 
 -------------------------------------------------------------------------------
-                     PACKET STRUCTURE FOR BITCOIN PROTOCOL
-                           protocol version >= 70001
+                     PACKET STRUCTURE FOR BITZENY PROTOCOL
+                           protocol version >= 70015
 -------------------------------------------------------------------------------
 [---MESSAGE---]
-[ 4] MAGIC_NUMBER               (\xF9\xBE\xB4\xD9)                  uint32_t
+[ 4] MAGIC_NUMBER               (\xDA\xA5\xBE\xF9)                  uint32_t
 [12] COMMAND                                                        char[12]
 [ 4] LENGTH                     <I (len(payload))                   uint32_t
 [ 4] CHECKSUM                   (sha256(sha256(payload))[:4])       uint32_t
