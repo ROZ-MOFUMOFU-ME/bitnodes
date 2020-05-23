@@ -1,10 +1,10 @@
 [export]
 
 # Logfile
-logfile = log/export.f9beb4d9.log
+logfile = log/export.daa5bef9.log
 
 # Network magic number
-magic_number = f9beb4d9
+magic_number = daa5bef9
 
 # Redis database number
 db = 0
@@ -13,4 +13,4 @@ db = 0
 debug = False
 
 # Relative path to directory containing timestamp-prefixed JSON export files
-export_dir = data/export/f9beb4d9
+export_dir = data/export/daa5bef9
