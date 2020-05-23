@@ -151,14 +151,14 @@ from cStringIO import StringIO
 from io import SEEK_CUR
 from operator import itemgetter
 
-MAGIC_NUMBER = "\xF9\xBE\xB4\xD9"
-PORT = 8333
-MIN_PROTOCOL_VERSION = 70001
+MAGIC_NUMBER = "\xDA\xA5\xBE\xF9"
+PORT = 9253
+MIN_PROTOCOL_VERSION = 70015
 PROTOCOL_VERSION = 70015
 FROM_SERVICES = 0
 TO_SERVICES = 1  # NODE_NETWORK
-USER_AGENT = "/bitnodes.io:0.1/"
-HEIGHT = 478000
+USER_AGENT = "/znynodes.bitzeny.site:0.1/"
+HEIGHT = 1900000
 RELAY = 0  # set to 1 to receive all txs
 
 SOCKET_BUFSIZE = 8192
